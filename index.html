@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Plagins for Kompas-3D</title>
+</head>
+
+<body>
+    <main>
+        <div class="apps-content right-mainmiddlecontent">
+            <div id="search-plugin">
+                <div class="search-type-area" style="display: flex;">
+                    <label id="search-apps-placeholder-hint" hidden="hidden">Поиск библиотек</label>
+                </div>
+
+                <div class="search-form-wrapper">
+                    <form id="search-form" class="normal-search Landing" name="search-form" action="/All/ru/List/Search"
+                        method="get">
+                        <input type="hidden" name="isAppSearch" value="True">
+                        <div id="search">
+                            <div class="search-wrapper">
+                                <div class="search-form-content active">
+                                    <div class="nav-right">
+                                        <div class="nav-search-scope">
+                                            <div class="nav-search-facade" data-value="search-alias=aps">Все
+                                                библиотеки<span class="caret"></span></div>
+                                            <select name="searchboxstore" id="search-box-store-selector"
+                                                class="search-box-store-selector">
+                                                <option value="All" selected="&quot;selected&quot;">Категории</option>
+                                                <option value="ACD">Сборки</option>
+                                                <option value="RVT">Чертежи</option>
+                                                <option value="RVT">3D</option>
+                                            </select>
+                                        </div>
+                                        <div class="nav-search-submit">
+                                            <button class="search-form-submit nav-input" type="submit"></button>
+                                        </div>
+
+                                        <input id="facet" name="facet" type="hidden" value="">
+                                        <input id="collection" name="collection" type="hidden" value="">
+                                        <input id="sort" name="sort" type="hidden" value="">
+                                    </div><!-- nav-right -->
+                                    <div class="nav-fill" style="width: 489px; margin-right: 56px;">
+                                        <div class="nav-search-field">
+                                            <input autocomplete="off" class="search-form-keyword empty" data-query=""
+                                                id="query-term" name="query" placeholder="Поиск библиотек" size="45"
+                                                type="text" value="" data-overlay-text-enabled="true">
+                                            <input type="hidden" id="for-cache-search-str" value="">
+                                            <ul id="search-suggestions-box" class="search-suggestions-box-ul"
+                                                hidden="hidden" style="width: 669px; display: none;"></ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="show-all-wrapper">
+                        <span class="show_all" data-href="/All/ru/List/Search">Показать все</span>
+                    </div>
+                </div>
+            </div>
+            <div class="clear"></div>
+            <div class="apps-section apps-section--featured">
+                <div class="apps-wrapper">
+                    <h2 class="widget-title hover">Рекомендуемые библиотеки</h2>
+                    <ul class="apps-list nomarginpadding">
+                        <li class="large-widget-element widget-element-app">
+                            <a class="card__link widget-element-app-link"
+                                ga-appname="Landing--featuredapps--7cad Window Frame" href="#" previewlistener="true">
+                                <div class="widget-element-app-link__top">
+                                    <div class="card__image-title-wrapper">
+                                        <img class="card__image"
+                                            src="https://cdn-icons-png.flaticon.com/512/10063/10063361.png"
+                                            alt="7cad Window Frame">
+                                        <h3 class="card__title title">Чертежник линий</h3>
+                                    </div>
+                                    <div class="card__description-wrapper">
+                                        <p class="card__description">Рисует линии по заданным координатам в чертежах.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="widget-element-app-link__bottom">
+                                    <div class="card__price-wrapper">
+                                        <div class="s-price-cont ">
+                                            <span class="price">Скачать</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+
+
+                        <li class="large-widget-element widget-element-app">
+                            <a class="card__link widget-element-app-link"
+                                ga-appname="Landing--featuredapps--Pipe Assistant"
+                                href="/PLNT3D/ru/Detail/Index?id=8156861903810086405&amp;appLang=en&amp;os=Win64"
+                                previewlistener="true">
+                                <div class="widget-element-app-link__top">
+                                    <div class="card__image-title-wrapper">
+                                        <img class="card__image"
+                                            src="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_script_icon_130178.png"
+                                            alt="Генерация ленточной пружины">
+                                        <h3 class="card__title title">Генерация ленточной пружины</h3>
+                                    </div>
+                                    <div class="card__description-wrapper">
+                                        <p class="card__description">С помощью этого скрипта можно автоматически
+                                            создавать ленточные пружины с настраиваемыми параметрами. </p>
+                                    </div>
+                                </div>
+
+                                <div class="widget-element-app-link__bottom">
+
+                                    <div class="card__price-wrapper">
+
+                                        <div class="s-price-cont ">
+
+                                            <span class="price">Скачать</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+
+
+                        <li class="large-widget-element widget-element-app">
+                            <a class="card__link widget-element-app-link" ga-appname="Landing--featuredapps--SPCAD"
+                                href="/ACD/ru/Detail/Index?id=9027095783807103534&amp;appLang=en&amp;os=Win64"
+                                previewlistener="true">
+                                <div class="widget-element-app-link__top">
+                                    <div class="card__image-title-wrapper">
+                                        <img class="card__image"
+                                            src="data:image/png;base64,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"
+                                            alt="Генерация решетчатой конструкции">
+                                        <h3 class="card__title title">Генерация решетчатой конструкции</h3>
+                                    </div>
+                                    <div class="card__description-wrapper">
+                                        <p class="card__description">С помощью этого скрипта можно быстро создавать
+                                            решетчатые конструкции различных форм и размеров.</p>
+                                    </div>
+                                </div>
+
+                                <div class="widget-element-app-link__bottom">
+                                    <div class="card__price-wrapper">
+
+                                        <div class="s-price-cont ">
+
+                                            <span class="price">Скачать</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+
+
+                        <li class="large-widget-element widget-element-app">
+                            <a class="card__link widget-element-app-link" ga-appname="Landing--featuredapps--Room Name"
+                                href="/RVT/ru/Detail/Index?id=335515665106620279&amp;appLang=en&amp;os=Win64"
+                                previewlistener="true">
+                                <div class="widget-element-app-link__top">
+                                    <div class="card__image-title-wrapper">
+                                        <img class="card__image"
+                                            src="https://png.pngtree.com/png-clipart/20230327/original/pngtree-script-vector-icon-design-illustration-png-image_9005059.png"
+                                            alt="Автоматическое создание зубчатого колеса">
+                                        <h3 class="card__title title">Автоматическое создание зубчатого колеса</h3>
+                                    </div>
+                                    <div class="card__description-wrapper">
+                                        <p class="card__description">Данный скрипт создаёт зубчатые колёса различных
+                                            конфигураций и размеров с учётом заданных параметров.</p>
+                                    </div>
+                                </div>
+
+
+                                <div class="widget-element-app-link__bottom">
+                                    <div class="card__price-wrapper">
+
+                                        <div class="s-price-cont ">
+
+                                            <span class="price">Скачать</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="large-widget-element widget-element-app">
+                            <a class="card__link widget-element-app-link"
+                                ga-appname="Landing--featuredapps--VIRTUELE - BIM Data Validation and Migration"
+                                href="/BIM360/ru/Detail/Index?id=7491723924419491637&amp;appLang=en&amp;os=Web"
+                                previewlistener="true">
+                                <div class="widget-element-app-link__top">
+                                    <div class="card__image-title-wrapper">
+                                        <img class="card__image"
+                                            src="data:image/png;base64,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"
+                                            alt="Генерация нестандартного резьбового соединения">
+                                        <h3 class="card__title title">Генерация нестандартного резьбового соединения
+                                        </h3>
+                                    </div>
+                                    <div class="card__description-wrapper">
+                                        <p class="card__description">Этот скрипт позволяет создавать нестандартные
+                                            резьбовые соединения, учитывая особенности их конструкции.</p>
+                                    </div>
+                                </div>
+
+
+                                <div class="widget-element-app-link__bottom">
+                                    <div class="card__price-wrapper">
+
+                                        <div class="s-price-cont ">
+
+                                            <span class="price">Скачать</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="large-widget-element widget-element-app">
+                            <a class="card__link widget-element-app-link"
+                                ga-appname="Landing--featuredapps--SoftDraft Steel Joist Girders 3DS"
+                                href="/ACD/ru/Detail/Index?id=6989308655508437290&amp;appLang=en&amp;os=Win32_64"
+                                previewlistener="true">
+                                <div class="widget-element-app-link__top">
+                                    <div class="card__image-title-wrapper">
+                                        <img class="card__image"
+                                            src="data:image/png;base64,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"
+                                            alt="Автоматическое построение сложных криволинейных поверхностей">
+                                        <h3 class="card__title title">Автоматическое построение сложных криволинейных
+                                            поверхностей</h3>
+                                    </div>
+                                    <div class="card__description-wrapper">
+                                        <p class="card__description">Данный скрипт облегчает создание сложных
+                                            криволинейных поверхностей на основе заданных параметров и контрольных
+                                            точек.
+                                        </p>
+                                    </div>
+                                </div>
+
+
+                                <div class="widget-element-app-link__bottom">
+                                    <div class="card__price-wrapper">
+
+                                        <div class="s-price-cont ">
+
+                                            <span class="price">Скачать</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="large-widget-element widget-element-app">
+                            <a class="card__link widget-element-app-link"
+                                ga-appname="Landing--featuredapps--British Standard EN 10365-2017 Steel Sections"
+                                href="/PLNT3D/ru/Detail/Index?id=8080333352180364484&amp;appLang=en&amp;os=Win64"
+                                previewlistener="true">
+                                <div class="widget-element-app-link__top">
+                                    <div class="card__image-title-wrapper">
+                                        <img class="card__image"
+                                            src="https://png.pngtree.com/png-clipart/20230408/original/pngtree-script-vector-icon-design-illustration-png-image_9035884.png"
+                                            alt="Автоматическое построение эргономичных ручек">
+                                        <h3 class="card__title title">Автоматическое построение эргономичных ручек</h3>
+                                    </div>
+                                    <div class="card__description-wrapper">
+                                        <p class="card__description">Этот скрипт позволяет создавать эргономичные ручки
+                                            для различных изделий, учитывая практические аспекты и удобство
+                                            использования.</p>
+                                    </div>
+                                </div>
+
+
+                                <div class="widget-element-app-link__bottom">
+                                    <div class="card__price-wrapper">
+
+                                        <div class="s-price-cont ">
+
+                                            <span class="price">Скачать</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="large-widget-element widget-element-app">
+                            <a class="card__link widget-element-app-link"
+                                ga-appname="Landing--featuredapps--Corridor EZ"
+                                href="/CIV3D/ru/Detail/Index?id=779338059085361572&amp;appLang=en&amp;os=Win64"
+                                previewlistener="true">
+                                <div class="widget-element-app-link__top">
+                                    <div class="card__image-title-wrapper">
+                                        <img class="card__image"
+                                            src="https://cdn-icons-png.flaticon.com/512/7020/7020843.png"
+                                            alt="Автоматическое моделирование элементов трубопроводов">
+                                        <h3 class="card__title title">Автоматическое моделирование элементов
+                                            трубопроводов</h3>
+                                    </div>
+                                    <div class="card__description-wrapper">
+                                        <p class="card__description">Этот скрипт облегчает создание различных элементов
+                                            трубопроводов, включая cопряжения, фланцы и изгибы.</p>
+                                    </div>
+                                </div>
+
+
+                                <div class="widget-element-app-link__bottom">
+                                    <div class="card__price-wrapper">
+
+                                        <div class="s-price-cont ">
+
+                                            <span class="price">Скачать</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+
+
+                        <li class="large-widget-element widget-element-app">
+                            <a class="card__link widget-element-app-link"
+                                ga-appname="Landing--featuredapps--NavisCustomReportPro"
+                                href="/NAVIS/ru/Detail/Index?id=7615486252567671603&amp;appLang=en&amp;os=Win64"
+                                previewlistener="true">
+                                <div class="widget-element-app-link__top">
+                                    <div class="card__image-title-wrapper">
+                                        <img class="card__image"
+                                            src="https://cdn-icons-png.flaticon.com/512/6578/6578937.png"
+                                            alt="Генерация сложных анимационных механизмов">
+                                        <h3 class="card__title title">Генерация сложных анимационных механизмов</h3>
+                                    </div>
+                                    <div class="card__description-wrapper">
+                                        <p class="card__description">С помощью этого скрипта можно создавать сложные
+                                            анимационные механизмы и трансформации для ваших проектов.</p>
+                                    </div>
+                                </div>
+                                <div class="widget-element-app-link__bottom">
+                                    <div class="card__price-wrapper">
+                                        <div class="s-price-cont ">
+                                            <span class="price">Скачать</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div><!--apps wrapper-->
+            </div><!--apps section 1-->
+        </div><!--apps section 2-->
+        </div>
+    </main>
+</body>
+
+</html>
